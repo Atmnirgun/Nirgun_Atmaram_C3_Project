@@ -21,7 +21,7 @@ class RestaurantTest {
         openingTime = LocalTime.parse("09:30:00");
         closingTime = LocalTime.parse("23:00:00");
         restaurant = new Restaurant("Trump cafe", "USA", openingTime, closingTime);
-        restaurant.addToMenu("Chiken pery pery", 450);
+        restaurant.addToMenu("Chicken pery pery", 450);
         restaurant.addToMenu("Italian Pizza", 350);
 
         initialMenuSize = restaurant.getMenu().size();
